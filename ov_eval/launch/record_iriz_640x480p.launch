@@ -2,12 +2,12 @@
 
 
     <!-- what ros bag to play -->
-    <arg name="bag_name"    default="uzhfpv_outdoor_45/outdoor_45_1_snapdragon_with_gt" />
-    <arg name="bag_path"    default="/media/patrick/RPNG\ FLASH\ 3/" />
+    <arg name="bag_name"    default="orbbec-640x480p_canalisation_canejan" />
+    <arg name="bag_path"    default="/home/tlha/Work/VIO/OpenVins/canalisation/" />
 
 
     <!-- where to save the recorded poses -->
-    <arg name="path_save"   default="/home/tlha/Work/VIO/bags/" />
+    <arg name="path_save"   default="/home/tlha/Work/VIO/OpenVins/canalisation" />
 
 
     <!-- record the trajectory -->
