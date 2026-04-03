@@ -7,18 +7,14 @@ imu0:
     - [0.0, 0.0, 1.0, 0.0]
     - [0.0, 0.0, 0.0, 1.0]
 
-  accelerometer_noise_density: 0.1   # [ m / s^2 / sqrt(Hz) ]   ( accel "white noise" )
-  accelerometer_random_walk: 0.002   # [ m / s^3 / sqrt(Hz) ].  ( accel bias diffusion )
-  gyroscope_noise_density: 0.05      # [ rad / s / sqrt(Hz) ]   ( gyro "white noise" )
-  gyroscope_random_walk: 4.0e-05     # [ rad / s^2 / sqrt(Hz) ] ( gyro bias diffusion )
-  # accelerometer_noise_density: 0.002978112
-  # accelerometer_random_walk: 0.000451881902054504
-  # gyroscope_noise_density: 0.00025661496
-  # gyroscope_random_walk: 0.0001147242774842083
+  accelerometer_noise_density: 0.0025309522
+  accelerometer_random_walk: 0.00020018773682178493
+  gyroscope_noise_density: 0.00012633185
+  gyroscope_random_walk: 4.260517430489519e-06
   model: calibrated
-  rostopic: /camera/imu
+  rostopic: /imu/data
   time_offset: 0
-  update_rate: 200.0
+  update_rate: 400.0
 
 
   # three different modes supported:
