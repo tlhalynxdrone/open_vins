@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.3)
 
 # Find ROS build system
 find_package(catkin QUIET COMPONENTS roscpp rospy geometry_msgs nav_msgs sensor_msgs ov_core)
-
+set(EIGEN3_INCLUDE_DIR "/usr/include/eigen3")
 # Describe ROS project
 if (catkin_FOUND AND ENABLE_ROS)
     add_definitions(-DROS_AVAILABLE=1)
